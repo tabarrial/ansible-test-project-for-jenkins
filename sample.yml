@@ -2,4 +2,5 @@
 - hosts: localhost
   tasks:
     - name: Probando ansible
-      msg: "Ansible está funcionando!"
+      debug:
+        msg: "Ansible está funcionando!"
