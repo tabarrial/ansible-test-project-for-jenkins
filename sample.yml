@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: my-host
   tasks:
     - name: Probando ansible
       debug:
