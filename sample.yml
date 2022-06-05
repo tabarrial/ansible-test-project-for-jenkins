@@ -4,3 +4,7 @@
     - name: Probando ansible
       debug:
         msg: "Ansible está funcionando!"
+        
+    - name: Print all available facts
+      ansible.builtin.debug:
+        var: ansible_facts
